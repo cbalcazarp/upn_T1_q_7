@@ -74,7 +74,7 @@ namespace upn_T1_q_7
             Console.WriteLine("Segundo número es: " + Convert.ToString(segundoNum));
 
             resultado = (((primerNum * 2) + 5) * 50) + segundoNum + 365 - 615;
-            Console.WriteLine("Resultado de lo siguiente \"  multiplique el primer número por 2, adiciónele 5, multiplique por 50, súmele el segundo número, súmele 365 y réstele 615. \": " + Convert.ToString(resultado));
+            Console.WriteLine("Resultado de lo siguiente \"multiplique el primer número por 2, adiciónele 5, multiplique por 50, súmele el segundo número, súmele 365 y réstele 615.\": " + Convert.ToString(resultado));
                      
 
         }
