@@ -14,7 +14,7 @@ namespace upn_T1_q_7
             Console.Write("Ingrese día mes de nacimiento (1,2,3,...,12): ");
             mesNac = Console.ReadLine();
             diamesNac = Convert.ToInt16(diaNac + mesNac);
-            Console.WriteLine("Bienvenido a la solución de la pregunta 7:");
+            Console.WriteLine(Convert.ToString(diamesNac));
 
         }
     }
