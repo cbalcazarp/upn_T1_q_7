@@ -7,7 +7,7 @@ namespace upn_T1_q_7
         static void Main(string[] args)
         {
             String diaNac, mesNac, nroMes;
-            Int16 diamesNac;
+            Int32 primerNum, segundoNum, resultado;
             Console.WriteLine("Bienvenido a la solución de la pregunta 7:");
             Console.Write("Ingrese día de nacimiento (1,2,3,...,31): ");
             diaNac = Console.ReadLine();
@@ -66,8 +66,16 @@ namespace upn_T1_q_7
                        
             }
 
-            diamesNac = Convert.ToInt16(diaNac + nroMes);
-            Console.WriteLine(Convert.ToString(diamesNac));
+            primerNum = Convert.ToInt32(diaNac + nroMes);
+            Console.WriteLine("Primer número es: " + Convert.ToString(primerNum));
+
+            Console.Write("Ingrese su edad: ");
+            segundoNum = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Segundo número es: " + Convert.ToString(segundoNum));
+
+            resultado = (((primerNum * 2) + 5) * 50) + segundoNum + 365 - 615;
+            Console.WriteLine("Resultado de lo siguiente \"  multiplique el primer número por 2, adiciónele 5, multiplique por 50, súmele el segundo número, súmele 365 y réstele 615. \": " + Convert.ToString(resultado));
+                     
 
         }
     }
